@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#signup">Sign Up</a></li>
+      <li><a href="#login">Log In</a></li>
+    </ul>
+    <h1 id="signup">Sign Up for free</h1>
+    <form action="post">
+      <label for="firstName">First Name*</label>
+      <input type="text" name="name" id="name" required />
+      <br />
+      <label for="lastName">Last Name*</label>
+      <input type="text" name="name2" id="name2" required />
+      <br />
+      <label for="email">Email Address*</label>
+      <input type="email" name="email" id="email" required autocomplete="off" />
+      <br />
+      <label for="password">Set A Password*</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        required
+        autocomplete="off"
+      />
+      <br />
+      <input type="submit" name="submit" id="submit" value="Get Started" />
+    </form>
+    <hr />
+    <h1 id="login">Welcome Back!</h1>
+    <form action="post">
+      <label for="email">Email Address*</label>
+      <input
+        type="email"
+        name="emailLogin"
+        id="emailLogin"
+        required
+        autocomplete="off"
+      />
+      <br />
+      <label for="passwordLogin">Password*</label>
+      <input
+        type="password"
+        name="passwordLogin"
+        id="passwordLogin"
+        required
+        autocomplete="off"
+      />
+      <br />
+      <p><a href="">Forgot Password?</a></p>
+      <br />
+      <button>Log In</button>
+    </form>
+  </body>
+</html>
